@@ -1,0 +1,28 @@
+[project]
+name = "research"
+version = "0.0.1"
+description = "Research experimentation package."
+requires-python = ">=3.8"
+authors = [
+    { name = "Tung Luu", email = "tungluu2203@kaist.ac.kr" },
+]
+license = { file = "LICENSE" }
+
+classifiers = [
+    "Topic :: Research",
+    "Private :: Do Not Upload"
+]
+
+[tool.black]
+line-length = 120
+target-version = ["py39", "py310", "py311"]
+preview = true
+
+[tool.isort]
+profile = "black"
+line_length = 120
+skip = ["__init__.py"]
+filter_files = true
+py_version = "all"
+
+[dependencies]

@@ -1,0 +1,6 @@
+Download MetaWorld dataset from CPL: https://drive.google.com/file/d/1lo5Wt9Go_E_5c8ymfXFvsTY6kDUelqu2/view
+This folder will include following files:
+    mw_door-open-v2_ep2500_n0.3.npz
+    mw_drawer-open-v2_ep2500_n0.3.npz
+    mw_plate-slide-v2_ep2500_n0.3.npz
+    mw_sweep-into-v2_ep2500_n0.3.npz
