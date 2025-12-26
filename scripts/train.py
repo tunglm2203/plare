@@ -11,7 +11,7 @@ def try_wandb_setup(path, config):
         return
     project_dir = os.path.dirname(os.path.dirname(__file__))
     exp_dir = os.path.join(project_dir, path)
-    project = "PLARE-IROS-2025"
+    project = "YOUR PROJECT"
     entity = "tungluu2203"
     wandb.login(key="local-8e01dce497b881311ad295b0ac3a69940a16de30")
 
