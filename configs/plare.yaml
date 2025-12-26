@@ -32,7 +32,7 @@ dataset_kwargs:
   capacity: 10000 # How many comparisons to allow, null means all in the dataset.
   label_key: vlm_label
   mode: comparison
-  ignore_unsure: False
+  ignore_unsure: True
 
 processor: null
 
@@ -56,4 +56,4 @@ trainer_kwargs: # Arguments given to Algorithm.train
     num_workers: 0 # Number of dataloader workers.
     batch_size: null
 
-seed: null
+seed: 1
