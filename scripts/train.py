@@ -12,7 +12,7 @@ def try_wandb_setup(path, config):
     project_dir = os.path.dirname(os.path.dirname(__file__))
     exp_dir = os.path.join(project_dir, path)
     project = "YOUR PROJECT"
-    entity = "tungluu2203"
+    entity = "your entity"
     wandb.login(key="local-8e01dce497b881311ad295b0ac3a69940a16de30")
 
     if config.config['env'] is not None:
