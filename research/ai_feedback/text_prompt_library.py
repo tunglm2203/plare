@@ -1,6 +1,3 @@
-
-# TODO: This scope is used to define prompt template
-
 ###################### Prompt for single image ######################
 
 
@@ -63,11 +60,7 @@ Reply -1 if the text is unsure or there is no difference.
 """
 
 
-
-
-
-
-# TODO: This scope used to define task description and note
+# This scope used to define task description and note
 
 task_description_dict = {
     "drawer-open-v2": "open the drawer",
