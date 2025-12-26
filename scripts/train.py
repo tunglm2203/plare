@@ -20,7 +20,6 @@ def try_wandb_setup(path, config):
         tags = [config.config['eval_env']]
     else:
         raise ValueError
-    wandb_offline = 'disabled' if 'debug' in path else 'online'
     group = os.path.basename(os.path.dirname(exp_dir))
     name = os.path.basename(exp_dir)
     wandb.init(
@@ -30,8 +29,7 @@ def try_wandb_setup(path, config):
         dir=exp_dir,
         project=project,
         entity=entity,
-        config=config.flatten(separator="-"),
-        mode=wandb_offline
+        config=config.flatten(separator="-")
     )
 
 
