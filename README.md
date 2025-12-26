@@ -6,7 +6,7 @@
 KAIST, South Korea
 <br>
 
-[[ArXiv]](https://arxiv.org/abs/2507.23391v1) [[Video]](https://youtu.be/HhhOoiVpMjU)
+[[Paper]](https://ieeexplore.ieee.org/document/11246902) [[Video]](https://youtu.be/HhhOoiVpMjU)
 
 
 ## Installation
