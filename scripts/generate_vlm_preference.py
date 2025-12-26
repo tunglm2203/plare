@@ -35,19 +35,19 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     env_name = args.env_name.replace('mw_', '')
-    if args.env_name == "mw_drawer-open-v2":
+    if args.env_name == "drawer-open-v2":
         data_path = "datasets/pref/mw_drawer-open-v2_ep2500_n0.3.npz"   # Download from CPL's repo
         image_file = "datasets/pref_image_only/mw_drawer-open-v2_ep2500_n0.3_img200.pkl"    # You need to render
 
-    elif args.env_name == "mw_sweep-into-v2":
+    elif args.env_name == "sweep-into-v2":
         data_path = "datasets/pref/mw_sweep-into-v2_ep2500_n0.3.npz"    # Download from CPL's repo
         image_file = "datasets/pref_image_only/mw_sweep-into-v2_ep2500_n0.3_img200.pkl"     # You need to render
 
-    elif args.env_name == "mw_plate-slide-v2":
+    elif args.env_name == "plate-slide-v2":
         data_path = "datasets/pref/plate-slide-v2_ep2500_n0.3.npz"      # Download from CPL's repo
-        image_file = "datasets/pref_image_only/plate-slide-v2_ep2500_n0.3_img200.pkl"       # You need to render
+        image_file = "datasets/pref_image_only/mw_plate-slide-v2_ep2500_n0.3_img200.pkl"       # You need to render
 
-    elif args.env_name == "mw_door-open-v2":
+    elif args.env_name == "door-open-v2":
         data_path = "datasets/pref/mw_door-open-v2_ep2500_n0.3.npz"     # Download from CPL's repo
         image_file = "datasets/pref_image_only/mw_door-open-v2_ep2500_n0.3_img200.pkl"      # You need to render
 
