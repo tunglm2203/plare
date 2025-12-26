@@ -73,7 +73,10 @@ if __name__ == "__main__":
     model_names = ("gemini-2.0-flash", "gemini-2.0-flash")
     # Place your keys to following list
     key_list = [
-        "your_gemini_key_here"
+        "your_gemini_key_here_1",
+        "your_gemini_key_here_2",
+        "your_gemini_key_here_3",
+        # Place as many keys as you want
     ]
     key_holder = KeyHolder(key_list, args.n_processes)
 
