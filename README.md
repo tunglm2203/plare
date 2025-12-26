@@ -53,7 +53,7 @@ If you use this repo in your research, please consider citing the paper as follo
     luu2025policy,
     title={Policy Learning from Large Vision-Language Model Feedback without Reward Modeling},
     author={Luu, Tung M and Lee, Donghoon and Lee, Younghwan and Yoo, Chang D},
-    booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
     year={2025}
 }
 ```
